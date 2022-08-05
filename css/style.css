@@ -144,6 +144,7 @@ body {
 
 .current {
   position: relative;
+  color: var(--accent-color);
 }
 
 .current::after {
@@ -363,6 +364,9 @@ body {
 
 .team-social-icon {
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
@@ -581,7 +585,7 @@ body {
   border-color: var(--accent-color);
 }
 
-/*----PORTFOLIO----*/
+/*--------------PORTFOLIO-----------*/
 /*----menu----*/
 
 .menu-list {
@@ -641,7 +645,6 @@ body {
 }
 
 .portfolio-box {
-  height: 404px;
   background: #ffffff;
 }
 
@@ -669,7 +672,7 @@ body {
   color: #ffffff;
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
